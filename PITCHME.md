@@ -65,6 +65,19 @@ AndroidStudioがオススメ  
 ![AndroidStudio](https://github.com/ragrog/AndroidStudySession/raw/image/AndroidStudioTop.jpg)
 ---
 ## Projectの新規作成
+---
+### Applicationの名前
+![NewProject](https://github.com/ragrog/AndroidStudySession/raw/image/helloworld.png)
+---
+### バージョン
+KitKatでいいよ
+![NewProject](https://github.com/ragrog/AndroidStudySession/raw/image/newproject_app_version.png)
+### 初期の形式を選択
+EmptyActivityにしておこう
+![NewProject](https://github.com/ragrog/AndroidStudySession/raw/image/newproject_select_empty.png)
+### 
+---
+## Projectの新規作成
 
 ---
 ## Projectのダウンロード
