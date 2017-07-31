@@ -28,4 +28,13 @@ Androidで開発するための知識
 ---
 
 # Androidはバージョンが沢山ある
-[APIレベル　一覧](https://developer.android.com/guide/topics/manifest/uses-sdk-element.html?hl=ja)
+バージョンコードはお菓子の名前  
+最新のリリースバージョンはNougat  
+[バージョン一覧](https://developer.android.com/guide/topics/manifest/uses-sdk-element.html?hl=ja#ApiLevels)
+---
+# バージョンと一緒にあるAPIレベルに注意せよ
+多くはバージョンとAPIレベルが対応関係  
+あるAPIレベルで動作するメソッドが、一つ上のレベルで動かないことも多々  
+検索するときは、APIレベルに十分注意すること
+
+
