@@ -69,13 +69,12 @@ AndroidStudioがオススメ  
 ### Applicationの名前
 * ApplicationName - HelloWorld
 * domain - com.study.hamalab
----
 ### バージョン
-KitKatでいいよ
+KitKat
 ---
 ### 初期の形式を選択
-EmptyActivityにしておこう
-### 
+EmptyActivityにする
+名前をMainActivityに
 ---
 ## Projectの新規作成
 
