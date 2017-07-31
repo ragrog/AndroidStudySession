@@ -86,7 +86,7 @@ EmptyActivityにする
 ---
 ## Project
 * 表示形式を変更できる(基本はAndroid
-```txt
+```
 
 ├── app
 |    ├── manifests
