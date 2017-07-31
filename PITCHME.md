@@ -82,6 +82,7 @@ EmptyActivityにする
 * Project
 * Code
 * AndroidMonitor
+
 ----
 # Project
 * 表示形式を変更できる(基本はAndroid
