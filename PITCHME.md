@@ -71,10 +71,12 @@ AndroidStudioがオススメ  
 * domain - com.study.hamalab
 ### バージョン
 KitKat
+
 ---
 ### 初期の形式を選択
 EmptyActivityにする
 名前をMainActivityに
+
 ---
 ## Projectの新規作成
 
