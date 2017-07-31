@@ -83,8 +83,8 @@ EmptyActivityにする
 * Code
 * AndroidMonitor
 
-----
-# Project
+---
+## Project
 * 表示形式を変更できる(基本はAndroid
 ```
 ├── app
@@ -93,10 +93,6 @@ EmptyActivityにする
 |    └── res
 └── GradleScript
 ```
-
-
-
-
 ---
 ## Projectのダウンロード
 
