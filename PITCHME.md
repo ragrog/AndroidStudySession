@@ -67,15 +67,14 @@ AndroidStudioがオススメ  
 ## Projectの新規作成
 ---
 ### Applicationの名前
-![NewProject](https://github.com/ragrog/AndroidStudySession/raw/image/helloworld.png)
+* ApplicationName - HelloWorld
+* domain - com.study.hamalab
 ---
 ### バージョン
 KitKatでいいよ
-![NewProject](https://drive.google.com/open?id=0B9uWE5Xt8J8MUUlZN2tEUkw1QUk)
 ---
 ### 初期の形式を選択
 EmptyActivityにしておこう
-![NewProject](http://www.theappguruz.com/app/uploads/2015/12/add-an-activity-to-mobile.png)
 ### 
 ---
 ## Projectの新規作成
