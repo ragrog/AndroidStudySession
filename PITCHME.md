@@ -55,15 +55,18 @@ BLE通信を使う場合は、端末のBLE規格も確認すべし
 
 ---
 ## 開発環境
-**AndroidStudio**と**Eclipse**
+**AndroidStudio**と**Eclipse**  
 両者はコードが異なる部分が多少ある  
-注意せよ(Build設定関係)
+注意せよ(Build設定関係)  
 AndroidStudioがオススメ  
 
 ---
 ## AndroidStudio使い方
 ![AndroidStudio](https://github.com/ragrog/AndroidStudySession/raw/image/AndroidStudioTop.jpg)
+---
 ## Projectの新規作成
+
+---
 ## Projectのダウンロード
 
 ## 実行方法
