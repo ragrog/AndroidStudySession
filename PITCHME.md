@@ -71,7 +71,7 @@ AndroidStudioがオススメ  
 ---
 ### バージョン
 KitKatでいいよ
-![NewProject](https://github.com/ragrog/AndroidStudySession/raw/image/newproject_app_version.png)
+![NewProject](https://drive.google.com/open?id=0B9uWE5Xt8J8MUUlZN2tEUkw1QUk)
 ---
 ### 初期の形式を選択
 EmptyActivityにしておこう
