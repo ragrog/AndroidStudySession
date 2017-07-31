@@ -87,13 +87,12 @@ EmptyActivityにする
 ## Project
 * 表示形式を変更できる(基本はAndroid
 ```
-
+.
 ├── app
 |    ├── manifests
 |    ├── java
 |    └── res
 └── GradleScript
-
 ```
 ---
 ## Projectのダウンロード
