@@ -34,7 +34,7 @@ Androidで開発するための知識
 バージョンコードはお菓子の名前  
 最新のリリースバージョンはNougat  
 [バージョン一覧](https://developer.android.com/guide/topics/manifest/uses-sdk-element.html?hl=ja#ApiLevels)
-
+---
 ## どのバージョンで開発すればいいの？
 研究なので自分の端末に合うバージョンで良い  
 端末のバージョンは端末情報で分かるよ  
