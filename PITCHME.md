@@ -62,6 +62,7 @@ AndroidStudioがオススメ  
 
 ---
 ## AndroidStudio使い方
+![AndroidStudio](https://github.com/ragrog/AndroidStudySession/raw/image/AndroidStudioTop.jpg)
 ## Projectの新規作成
 ## Projectのダウンロード
 
