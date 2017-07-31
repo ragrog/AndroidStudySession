@@ -65,7 +65,35 @@ AndroidStudioがオススメ  
 ![AndroidStudio](https://github.com/ragrog/AndroidStudySession/raw/image/AndroidStudioTop.jpg)
 ---
 ## Projectの新規作成
+---
+### Applicationの名前
+* ApplicationName - HelloWorld
+* domain - com.study.hamalab
+### バージョン
+KitKat
 
+---
+### 初期の形式を選択
+EmptyActivityにする  
+名前をMainActivityに
+
+---
+## AndroidStudioの見方
+* Project
+* Code
+* AndroidMonitor
+
+---
+## Project
+* 表示形式を変更できる(基本はAndroid
+```
+.
+├── app
+|    ├── manifests
+|    ├── java
+|    └── res
+└── GradleScript
+```
 ---
 ## Projectのダウンロード
 
