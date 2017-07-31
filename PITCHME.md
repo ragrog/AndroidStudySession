@@ -75,7 +75,7 @@ KitKatでいいよ
 ---
 ### 初期の形式を選択
 EmptyActivityにしておこう
-![NewProject](https://github.com/ragrog/AndroidStudySession/raw/image/newproject_select_empty.png)
+![NewProject](http://www.theappguruz.com/app/uploads/2015/12/add-an-activity-to-mobile.png)
 ### 
 ---
 ## Projectの新規作成
