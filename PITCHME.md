@@ -74,11 +74,27 @@ KitKat
 
 ---
 ### 初期の形式を選択
-EmptyActivityにする
+EmptyActivityにする  
 名前をMainActivityに
 
 ---
-## Projectの新規作成
+## AndroidStudioの見方
+* Project
+* Code
+* AndroidMonitor
+----
+# Project
+* 表示形式を変更できる(基本はAndroid
+```
+├── app
+|    ├── manifests
+|    ├── java
+|    └── res
+└── GradleScript
+```
+
+
+
 
 ---
 ## Projectのダウンロード
