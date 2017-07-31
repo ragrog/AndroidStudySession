@@ -89,10 +89,10 @@ EmptyActivityにする
 ```
 .
 ├── app
-|    ├── manifests
-|    ├── java
-|    └── res
-└── GradleScript
+|    ├── manifests (アプリの情報を宣言
+|    ├── java (Javaコード
+|    └── res (xmlコード
+└── GradleScript (必要なライブラリ等明記
 ```
 ---
 ## Projectのダウンロード
