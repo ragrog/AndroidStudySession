@@ -96,6 +96,9 @@ EmptyActivityにする
 |    └── res (xmlコード
 └── GradleScript (必要なライブラリ等明記
 ```
+---
+### Manifest
+---?code=1-HelloWorld/app/src/main/AndroidManifest.xml
 
 ---
 ### Code
@@ -149,14 +152,30 @@ buildとappの２種類がある
 ライブラリはappに書く 
 ライブラリの紹介ページにはgradleの書き方が書いてある
 [ButterKnife](http://jakewharton.github.io/butterknife/)
+
 ---
-## Projectのダウンロード
 
 ## 実行方法
-## バグの直し方
+▶を押して実行する端末を選択
+
+---
+## バグの直し方・見つけ方
+---
 ### その1
-デバッグ実行
+エラーを見る  
+エラーを見ない奴には等しく死を与えるべき
+
+---
+### デバッグ実行
+▶の２個右にある虫マークを押す  
+コードの左端をクリックでBrakePointを仕込めばそこで停止
+
+---
 ### その2
 Log出力
+```
+Log.d("タグ名", "デバッグテキスト");
+```
 
+---
 
