@@ -96,11 +96,6 @@ EmptyActivityにする
 |    └── res (xmlコード
 └── GradleScript (必要なライブラリ等明記
 ```
----
-### Manifest
-ここに書いてないせいでハマるnoobは多い
-
----?code=1-HelloWorld/app/src/main/AndroidManifest.xml
 
 ---
 ### Code
@@ -154,6 +149,12 @@ buildとappの２種類がある
 ライブラリはappに書く 
 ライブラリの紹介ページにはgradleの書き方が書いてある
 [ButterKnife](http://jakewharton.github.io/butterknife/)
+
+---
+## Manifest
+ここに書いてないせいでハマるnoobは多い
+
+---?code=1-HelloWorld/app/src/main/AndroidManifest.xml
 
 ---
 
