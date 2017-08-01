@@ -25,7 +25,7 @@
 ---
 
 # 前半
-Androidで開発するための知識
+Androidで開発するために必要な前提知識
 
 ---
 
@@ -178,5 +178,23 @@ buildとappの２種類がある
 Log.d("タグ名", "デバッグテキスト");
 ```
 
+---?code=1-HelloWorld/app/src/main/java/com/study/hamalb/helloworld/DebugActivity.java
+
+# 後半
+開発するための知識
+
+## リスナーとアダプター
+
 ---
+## パーミッション
+---
+### 保存
+---
+## ライブラリ
+開発を便利にするライブラリと見た目を良くするライブラリがある
+* [MaterialDialog](https://github.com/afollestad/material-dialogs)
+* [PermissionsDispatcher](https://github.com/hotchemi/PermissionsDispatcher)
+* [Retrofit](http://square.github.io/retrofit/)
+---
+## 保存したいならプレファレンス
 
