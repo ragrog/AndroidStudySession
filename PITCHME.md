@@ -115,12 +115,16 @@ ActivityとLayoutを繋ぐのはLayoutのIDである
 Overideをすることで、適切なタイミングでコールバックされる
 
 ---
+---?code=1-HelloWorld/app/src/main/java/com/study/hamalb/helloworld/MainActivity.java
+---
 ### Layout
 xml形式で記述される  
 様々な部品をxmlで記述していく  
 主に構造と機能の２種類の部品がある  
 (LinierLayout, ReactiveLayout, Button, TextView)  
 
+---
+---?code=1-HelloWorld/app/src/main/res/layout/activity_main.xml
 ---
 ### ActivityとLayoutの連携
 IDを指定することで、Activityからアクセスすることが可能となる
