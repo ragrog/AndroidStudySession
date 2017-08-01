@@ -98,6 +98,7 @@ EmptyActivityにする
 ```
 ---
 ### Manifest
+ここに書いてないせいでハマるnoobは多い
 ---?code=1-HelloWorld/app/src/main/AndroidManifest.xml
 
 ---
