@@ -69,6 +69,8 @@ AndroidStudioがオススメ  
 #### Applicationの名前
 * ApplicationName - HelloWorld
 * domain - com.study.hamalab
+
+---
 #### バージョン
 KitKat
 
