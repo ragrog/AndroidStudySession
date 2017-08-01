@@ -152,7 +152,7 @@ buildとappの２種類がある
 
 ---
 ## Manifest
-ここに書いてないせいでハマるnoobは多い
+ここの書き忘れでハマるnoobは多い
 
 ---?code=1-HelloWorld/app/src/main/AndroidManifest.xml
 
