@@ -115,6 +115,7 @@ ActivityとLayoutを繋ぐのはLayoutのIDである
 Overideをすることで、適切なタイミングでコールバックされる
 
 ---?code=1-HelloWorld/app/src/main/java/com/study/hamalb/helloworld/MainActivity.java
+
 ---
 ### Layout
 xml形式で記述される  
@@ -122,18 +123,26 @@ xml形式で記述される
 主に構造と機能の２種類の部品がある  
 (LinierLayout, ReactiveLayout, Button, TextView)  
 
----
 ---?code=1-HelloWorld/app/src/main/res/layout/activity_main.xml
+
 ---
 ### ActivityとLayoutの連携
-IDを指定することで、Activityからアクセスすることが可能となる
-Activity内でfindViewByIdメソッドを使うとView型が手に入る。
-それをそれぞれ適切な型キャストを用いて使う
+IDを指定することで、Activityからアクセスすることが可能となる  
+Activity内でfindViewByIdメソッドを使うとView型が手に入る  
+それをそれぞれ適切な型キャストを用いて使う  
 ```java
-TextView textView = (TextView)findViewById(R.id.Text)
+TextView textView = (TextView)findViewById(R.id.helloText);
 ```
----
+
 ---?code=1-HelloWorld/app/build.gradle
+
+---
+## gradle
+依存関係を記述する場所
+buildとappの２種類がある
+ライブラリはappに書く 
+ライブラリの紹介ページにはgradleの書き方が書いてある
+[ButterKnife](http://jakewharton.github.io/butterknife/)
 ---
 ## Projectのダウンロード
 
