@@ -180,6 +180,7 @@ Log.d("タグ名", "デバッグテキスト");
 
 ---?code=1-HelloWorld/app/src/main/java/com/study/hamalb/helloworld/DebugActivity.java
 
+---
 # 後半
 開発するための知識
 
