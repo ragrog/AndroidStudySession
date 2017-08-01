@@ -95,7 +95,7 @@ EmptyActivityにする
 └── GradleScript (必要なライブラリ等明記
 ```
 ---
----?code=AndroidStudySession/1-HelloWorld/app/build.gradle
+---?code=1-HelloWorld/app/build.gradle
 
 ## Projectのダウンロード
 
