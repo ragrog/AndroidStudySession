@@ -84,7 +84,7 @@ EmptyActivityにする
 * AndroidMonitor
 
 ---
-## Project
+## Project構成
 * 表示形式を変更できる(基本はAndroid
 ```
 .
@@ -94,9 +94,44 @@ EmptyActivityにする
 |    └── res (xmlコード
 └── GradleScript (必要なライブラリ等明記
 ```
+## Code
+ソースコードが表示される  
+projectのコードをダブルクリックすれば表示される
+
+---
+## AndroidMonitor
+Logが出力されたり、メモリ・CPU使用率などを確認することができる
+
+---
+## Android の基礎
+---
+画面はActivityとLayoutで作られている  
+Activityはその画面の動作  
+Layoutはその画面のUIを定義する  
+ActivityとLayoutを繋ぐのはLayoutのIDである
+---
+## Activity
+画面の生成から終了までのライフサイクルを持つ
+Overideをすることで、適切なタイミングでコールバックされる
+
+---
+## Layout
+xml形式で記述される  
+様々な部品をxmlで記述していく  
+主に構造と機能の２種類の部品がある  
+(LinierLayout, ReactiveLayout, Button, TextView)  
+
+---
+## ActivityとLayoutの連携
+IDを指定することで、Activityからアクセスすることが可能となる
+Activity内でfindViewByIdメソッドを使うとView型が手に入る。
+それをそれぞれ適切な型キャストを用いて使う
+```java
+TextView textView = (TextView)findViewById(R.id.Text)
+```
 ---
 ---?code=1-HelloWorld/app/build.gradle
-
+---
 ## Projectのダウンロード
 
 ## 実行方法
