@@ -3,6 +3,7 @@ package com.study.hamalb.a3_permissions;
 import android.Manifest;
 import android.content.Context;
 import android.content.pm.PackageManager;
+import android.os.Environment;
 import android.support.annotation.NonNull;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.PermissionChecker;
@@ -13,6 +14,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.OutputStream;
 import java.io.OutputStreamWriter;
@@ -22,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
     private EditText editText;
     private Button button;
     private TextView permissionText;
-    private static final String LOCAL_FILE = "log.txt";
+    private String LOCAL_FILE = "log.txt";
     private static final int REQUEST_CODE_WRITE_PERMISSION = 222; // 番号は適当で良い
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,6 +35,8 @@ public class MainActivity extends AppCompatActivity {
         editText = (EditText)findViewById(R.id.editText);
         button = (Button)findViewById(R.id.button);
         permissionText = (TextView)findViewById(R.id.permission);
+
+        LOCAL_FILE = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS)  + "/" + LOCAL_FILE;
 
         if (PermissionChecker.checkSelfPermission(
                 MainActivity.this, Manifest.permission.WRITE_EXTERNAL_STORAGE)
@@ -46,14 +51,13 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                OutputStream out;
+                FileOutputStream  out;
                 try {
-                    out = openFileOutput(LOCAL_FILE, Context.MODE_PRIVATE);
-                    PrintWriter writer = new PrintWriter(new OutputStreamWriter(out,"UTF-8"));
-
-                    writer.write(editText.getText().toString());
-                    writer.close();
+                    out = new FileOutputStream(LOCAL_FILE);
+                    out.write(editText.getText().toString().getBytes());
                     out.close();
+                } catch (FileNotFoundException e1) {
+                    e1.printStackTrace();
                 } catch (IOException e) {
                     // TODO 自動生成された catch ブロック
                     e.printStackTrace();
