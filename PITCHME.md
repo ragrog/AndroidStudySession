@@ -94,6 +94,8 @@ EmptyActivityにする
 |    └── res (xmlコード
 └── GradleScript (必要なライブラリ等明記
 ```
+
+---
 ### Code
 ソースコードが表示される  
 projectのコードをダブルクリックすれば表示される
@@ -104,11 +106,13 @@ Logが出力されたり、メモリ・CPU使用率などを確認すること�
 
 ---
 ## Android の基礎
+
 ---
 画面はActivityとLayoutで作られている  
 Activityはその画面の動作  
 Layoutはその画面のUIを定義する  
 ActivityとLayoutを繋ぐのはLayoutのIDである
+
 ---
 ### Activity
 画面の生成から終了までのライフサイクルを持つ
