@@ -118,7 +118,7 @@ ActivityとLayoutを繋ぐのはLayoutのIDである
 ---
 ### Activity
 画面の生成から終了までのライフサイクルを持つ
-Overideをすることで、適切なタイミングでコールバックされる
+Overrideをすることで、適切なタイミングでコールバックされる
 
 ---?code=1-HelloWorld/app/src/main/java/com/study/hamalb/helloworld/MainActivity.java
 
